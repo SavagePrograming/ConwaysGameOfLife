@@ -553,7 +553,7 @@ while not end:
                 Past = []
                 Inactive = False
 
-                testNumber = int(raw_input("Test Number:"))
+                testNumber = int(input("Test Number:"))
 
                 for x in range(0, pixels.__len__()):
                     for y in range(0, pixels[0].__len__()):
@@ -566,7 +566,7 @@ while not end:
                         num = 0
             if event.key == pygame.K_r:
                 RANDOM = not RANDOM
-                print "RANDOM", RANDOM
+                print("RANDOM", RANDOM)
             if event.key == pygame.K_m:
 
                 generations = 0

@@ -43,10 +43,10 @@ def draw(num):
 
 
 def PrintNum(num):
-    print "[",
+    print("[", end=' ')
     for i in range(0, num):
-        print "[" + ", ".join(["0"] * num) + "],"
-    print "]"
+        print("[" + ", ".join(["0"] * num) + "],")
+    print("]")
 
 
 Conways = numpy.vectorize(Conway)
